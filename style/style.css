@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(/midia/joystix\ monospace.ttf);
+}
+
+h1{
+    font-family: titulo;
+    font-size: 40px;
+    color: #ffdd00;
+}
+p{
+	font-family: titulo;
+	font-size: 13px;
+}
+body{
+    background: #5cba47;
+
+}
+#social{
+	position: absolute;
+	top: 680px;
+	left: 44%;
+	font-size: 30px;
+}
+a{
+    color: transparent;
+}
+i{
+    color: #ffdd00;
+}
+#container{
+	width:950px;
+	height:auto;
+	margin: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+#fundoGame {
+	width:950px;
+	height:630px;
+	border-color:#FFF;
+	border: 5px #FFF;
+	border-style:solid;
+	position: absolute;
+	z-index: 5;
+}
+#chao{
+	width:950px;
+	height:630px;
+	position: absolute;
+	background-image: url(/midia/chao.png);
+	z-index: 4;
+}
+#arvores{
+	width:950px;
+	height:630px;
+	position: absolute;
+	background-image: url(/midia/arvores.png);
+	z-index: 3;
+	top: 2px;
+}
+#ceu{
+	top: center;
+	left: center;
+	width:950px;
+	height:630px;
+	position: absolute;
+	background-image: url(/midia/ceu.png);
+	z-index: 2;
+}
+
+#jogador {
+	width: 113px;
+	height: 79px;
+	position:absolute;
+	left:8px;
+	top:179px;
+    background-image:url(/midia/marreco.png);
+}
+
+#inimigo1 {
+	width: 113px;
+	height: 79px;
+	position: absolute;
+	left: 689px;
+	top: 253px;
+	background-image:url(/midia/inimigo1.png);
+	
+}
+
+#inimigo2 {
+	width: 165px;
+	height: 70px;
+	position: absolute;
+	left: 775px;
+	top: 447px;
+	background-image: url(/midia/inimigo2.png);
+}
+
+#inimigo3 {
+	width: 113px;
+	height: 79px;
+	position: absolute;
+	left: 800px;
+	top: 253px;
+	background-image:url(/midia/inimigo3.png);
+	opacity: 1;
+	
+}
+
+#amigo {
+	width: 44px;
+	height: 51px;
+	position: absolute;
+	left: 10px;
+	top: 464px;
+	background-image:url(/midia/amigo.png);
+}
+
+#inicio {
+	width:350px;
+	height:200px;
+	background-color:#FFF;
+ 	margin-left:auto;
+    margin-right:auto;
+ 	margin-top:125px;
+	text-align:center;
+	padding:10px;
+
+}
+h1, p{
+	margin: 10px;
+}
+p{
+	margin-top: 20px;
+}
+
+.anima1 {
+	background-image:url(/midia/marreco.png);
+	animation:play .5s steps(3) infinite;
+
+       -webkit-animation: play .5s steps(3) infinite;
+       -moz-animation: play .5s steps(3) infinite;
+       -ms-animation: play .5s steps(3) infinite;
+       -o-animation: play .5s steps(3) infinite;
+}
+
+@keyframes play {
+	from {background-position:0px;}
+	to {background-position: -340px;}
+}
+
+
+@-webkit-keyframes play {
+   from { background-position:0px; }
+     to { background-position: -340px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:0px; }
+     to { background-position: -340px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:0px; }
+     to { background-position: -340px; }
+}
+
+@-o-keyframes play {
+   from { background-position:0px; }
+     to { background-position: -340px; }
+}
+
+.anima2 {
+    background-image:url(/midia/inimigo1.png);
+    animation: play .5s steps(3) infinite;
+        -webkit-animation: play .5s steps(3) infinite;
+        -moz-animation: play .5s steps(3) infinite;
+        -ms-animation: play .5s steps(3) infinite;
+        -o-animation: play .5s steps(3) infinite; 
+}
+
+.anima5 {
+    background-image:url(/midia/inimigo3.png);
+    animation: play .5s steps(3) infinite;
+        -webkit-animation: play .5s steps(3) infinite;
+        -moz-animation: play .5s steps(3) infinite;
+        -ms-animation: play .5s steps(3) infinite;
+        -o-animation: play .5s steps(3) infinite; 
+}
+
+
+
+.anima3 {
+	background-image:url(/midia/amigo.png);
+	animation:play2 .9s steps(12) infinite;
+	    -webkit-animation: play2 .9s steps(12) infinite;
+        -moz-animation: play2 .9s steps(12) infinite;
+        -ms-animation: play2 .9s steps(12) infinite;
+        -o-animation: play2 .9s steps(12) infinite;
+}
+
+@keyframes play2 {
+	from {background-position:0px;}
+	to {background-position:-528px;}
+}
+
+@-webkit-keyframes play2 {
+   from { background-position:    0px; }
+     to { background-position: -528px; }
+}
+
+@-moz-keyframes play2 {
+   from { background-position:    0px; }
+     to { background-position: -528px; }
+}
+
+@-ms-keyframes play2 {
+   from { background-position:    0px; }
+     to { background-position: -528px; }
+}
+
+@-o-keyframes play2 {
+   from { background-position:    0px; }
+     to { background-position: -528px; }
+}
+
+#disparo {
+	width: 51px;
+	height: 12px;
+	position: absolute;
+	background-image: url(/midia/disparo.png);
+}
+#disparoInimigo {
+	width: 51px;
+	height: 12px;
+	position: absolute;
+	background-image: url(/midia/disparoinimigo.png);
+}
+
+#explosao1 {
+	width:113px;
+	height: 79px;
+	position:absolute;
+
+}
+
+#explosao2 {
+	width:165px;
+	height: 70px;
+	position:absolute;
+	
+}
+
+#explosao3 {
+	width:44px;
+	height:51px;
+	position:absolute;
+}
+
+.anima4 {
+	width:44px;
+	height:51px;
+	background-image:url(/midia/amigo_morte.png);
+	animation:play3 .5s steps(7) infinite;
+	-webkit-animation: play3 .5s steps(7) infinite;
+       -moz-animation: play3 .5s steps(7) infinite;
+        -ms-animation: play3 .5s steps(7) infinite;
+         -o-animation: play3 .5s steps(7) infinite;
+}
+
+@keyframes play3 {
+	from {background-position:0px;}
+	to {background-position:-308px;}
+}
+
+@-webkit-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-moz-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-ms-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-o-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+#placar {
+	width: 450px;
+	height: 50px;
+	position: absolute;
+	left: 5px;
+	top: 590px;
+    
+}
+
+h2 {
+	font-family:Titulo;
+	font-size:17px;
+	color:#FFF;
+    white-space: nowrap;
+}
+
+#energia {
+	width: 140px;
+	height: 38px;
+	position: absolute;
+	left: 750px;
+	top: 7px;	
+}
+h3 {
+	font-family:Titulo;
+	font-size:20px;
+	color:#603A03;
+
+}
+
+#fim {
+	width:350px;
+	height:200px;
+	background-color:#FFF;
+ 	margin-left:auto;
+    	margin-right:auto;
+ 	margin-top:100px;
+	text-align:center;
+	padding:10px;
+    cursor:initial;
+
+}
+#reinicia{
+    cursor: pointer;
+}
