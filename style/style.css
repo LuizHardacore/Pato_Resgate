@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: titulo;
-    src: url(/midia/joystix\ monospace.ttf);
+    src: url(https://luizhardacore.github.io/Pato_Resgate/midia/joystix\ monospace.ttf);
 }
 
 h1{
@@ -60,14 +60,14 @@ i{
 	width:950px;
 	height:630px;
 	position: absolute;
-	background-image: url(/midia/chao.png);
+	background-image: url(https://luizhardacore.github.io/Pato_Resgate/midia/chao.png);
 	z-index: 4;
 }
 #arvores{
 	width:950px;
 	height:630px;
 	position: absolute;
-	background-image: url(/midia/arvores.png);
+	background-image: url(https://luizhardacore.github.io/Pato_Resgate/midia/arvores.png);
 	z-index: 3;
 	top: 2px;
 }
@@ -77,7 +77,7 @@ i{
 	width:950px;
 	height:630px;
 	position: absolute;
-	background-image: url(/midia/ceu.png);
+	background-image: url(https://luizhardacore.github.io/Pato_Resgate/midia/ceu.png);
 	z-index: 2;
 }
 
@@ -87,7 +87,7 @@ i{
 	position:absolute;
 	left:8px;
 	top:179px;
-    background-image:url(/midia/marreco.png);
+    background-image:url(https://luizhardacore.github.io/Pato_Resgate/idia/marreco.png);
 }
 
 #inimigo1 {
@@ -96,7 +96,7 @@ i{
 	position: absolute;
 	left: 689px;
 	top: 253px;
-	background-image:url(/midia/inimigo1.png);
+	background-image:url(https://luizhardacore.github.io/Pato_Resgate/midia/inimigo1.png);
 	
 }
 
@@ -106,7 +106,7 @@ i{
 	position: absolute;
 	left: 775px;
 	top: 447px;
-	background-image: url(/midia/inimigo2.png);
+	background-image: url(https://luizhardacore.github.io/Pato_Resgate/midia/inimigo2.png);
 }
 
 #inimigo3 {
@@ -115,7 +115,7 @@ i{
 	position: absolute;
 	left: 800px;
 	top: 253px;
-	background-image:url(/midia/inimigo3.png);
+	background-image:url(https://luizhardacore.github.io/Pato_Resgate/midia/inimigo3.png);
 	opacity: 1;
 	
 }
@@ -126,7 +126,7 @@ i{
 	position: absolute;
 	left: 10px;
 	top: 464px;
-	background-image:url(/midia/amigo.png);
+	background-image:url(https://luizhardacore.github.io/Pato_Resgate/midia/amigo.png);
 }
 
 #inicio {
@@ -148,7 +148,7 @@ p{
 }
 
 .anima1 {
-	background-image:url(/midia/marreco.png);
+	background-image:url(https://luizhardacore.github.io/Pato_Resgate/midia/marreco.png);
 	animation:play .5s steps(3) infinite;
 
        -webkit-animation: play .5s steps(3) infinite;
@@ -184,7 +184,7 @@ p{
 }
 
 .anima2 {
-    background-image:url(/midia/inimigo1.png);
+    background-image:url(https://luizhardacore.github.io/Pato_Resgate/midia/inimigo1.png);
     animation: play .5s steps(3) infinite;
         -webkit-animation: play .5s steps(3) infinite;
         -moz-animation: play .5s steps(3) infinite;
@@ -193,7 +193,7 @@ p{
 }
 
 .anima5 {
-    background-image:url(/midia/inimigo3.png);
+    background-image:url(https://luizhardacore.github.io/Pato_Resgate/midia/inimigo3.png);
     animation: play .5s steps(3) infinite;
         -webkit-animation: play .5s steps(3) infinite;
         -moz-animation: play .5s steps(3) infinite;
@@ -204,7 +204,7 @@ p{
 
 
 .anima3 {
-	background-image:url(/midia/amigo.png);
+	background-image:url(https://luizhardacore.github.io/Pato_Resgate/midia/amigo.png);
 	animation:play2 .9s steps(12) infinite;
 	    -webkit-animation: play2 .9s steps(12) infinite;
         -moz-animation: play2 .9s steps(12) infinite;
@@ -241,13 +241,13 @@ p{
 	width: 51px;
 	height: 12px;
 	position: absolute;
-	background-image: url(/midia/disparo.png);
+	background-image: url(https://luizhardacore.github.io/Pato_Resgate/midia/disparo.png);
 }
 #disparoInimigo {
 	width: 51px;
 	height: 12px;
 	position: absolute;
-	background-image: url(/midia/disparoinimigo.png);
+	background-image: url(https://luizhardacore.github.io/Pato_Resgate/midia/disparoinimigo.png);
 }
 
 #explosao1 {
@@ -273,7 +273,7 @@ p{
 .anima4 {
 	width:44px;
 	height:51px;
-	background-image:url(/midia/amigo_morte.png);
+	background-image:url(https://luizhardacore.github.io/Pato_Resgate/midia/amigo_morte.png);
 	animation:play3 .5s steps(7) infinite;
 	-webkit-animation: play3 .5s steps(7) infinite;
        -moz-animation: play3 .5s steps(7) infinite;
