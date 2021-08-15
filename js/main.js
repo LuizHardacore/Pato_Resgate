@@ -369,7 +369,7 @@ function start(){
     function explosao1(inimigo1X,inimigo1Y) {
         somExplosao.play();
         $("#fundoGame").append("<div id='explosao1'></div");
-        $("#explosao1").css("background-image", "url(/midia/morteinimigo1.png)");
+        $("#explosao1").css("background-image", "url(https://luizhardacore.github.io/Pato_Resgate/midia/morteinimigo1.png)");
         var div=$("#explosao1");
         div.css("top", inimigo1Y);
         div.css("left", inimigo1X);
@@ -389,7 +389,7 @@ function start(){
 	function explosao2(inimigo2X,inimigo2Y) {
         somExplosao.play();
         $("#fundoGame").append("<div id='explosao2'></div");
-        $("#explosao2").css("background-image", "url(/midia/morteinimigo2.png)");
+        $("#explosao2").css("background-image", "url(https://luizhardacore.github.io/Pato_Resgate/midia/morteinimigo2.png)");
         var div2=$("#explosao2");
         div2.css("top", inimigo2Y);
         div2.css("left", inimigo2X);
@@ -409,7 +409,7 @@ function start(){
     function explosao4(inimigo3X,inimigo3Y) {
         somExplosao.play();
         $("#fundoGame").append("<div id='explosao1'></div");
-        $("#explosao1").css("background-image", "url(/midia/morteinimigo3.png)");
+        $("#explosao1").css("background-image", "url(https://luizhardacore.github.io/Pato_Resgate/midia/morteinimigo3.png)");
         var div=$("#explosao1");
         div.css("top", inimigo3Y);
         div.css("left", inimigo3X);
@@ -472,14 +472,14 @@ function start(){
     //Barra de energia
     function energia() {
         
-        if (energiaAtual==3) $("#energia").css("background-image", "url(/midia/energia3.png)");
+        if (energiaAtual==3) $("#energia").css("background-image", "url(https://luizhardacore.github.io/Pato_Resgate/midia/energia3.png)");
 
-        if (energiaAtual==2) $("#energia").css("background-image", "url(/midia/energia2.png)");
+        if (energiaAtual==2) $("#energia").css("background-image", "url(https://luizhardacore.github.io/Pato_Resgate/midia/energia2.png)");
         
-        if (energiaAtual==1)  $("#energia").css("background-image", "url(/midia/energia1.png)");
+        if (energiaAtual==1)  $("#energia").css("background-image", "url(https://luizhardacore.github.io/Pato_Resgate/midia/energia1.png)");
         
         if (energiaAtual==0) {
-            $("#energia").css("background-image", "url(/midia/energia0.png)");
+            $("#energia").css("background-image", "url(https://luizhardacore.github.io/Pato_Resgate/midia/energia0.png)");
             
             gameOver();
         }
